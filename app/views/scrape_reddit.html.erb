@@ -1,0 +1,12 @@
+<h1>Ruby Rails Front Page</h1>
+
+
+
+
+<% if @entriesArray %>
+  <ul>
+    <% @entriesArray.each do |foot| %>
+      <li><h2><%= foot %></h2></li>
+    <% end %>
+  </ul>
+<% end %>
